@@ -57,7 +57,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Mu ge</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -217,12 +217,12 @@
               <ol>
 <li>第一项：<ul>
 <li>ta不是wo的花儿</li>
-<li>wo只是途径ta的绽放</li>
+<li>wo只是途径ta的绽放<br><img src="http://img03.sogoucdn.com/app/a/100520146/49181986aa4562ffba3896f432911364" srcset="/img/loading.gif" alt="花儿"></li>
 </ul>
 </li>
 <li>第二项：<ul>
 <li>鼻子一酸</li>
-<li>眼眶一湿</li>
+<li>眼眶一湿<br><img src="http://ppe.oss-cn-shenzhen.aliyuncs.com/collections/176/8/thumb.jpg" srcset="/img/loading.gif" alt="少年"></li>
 </ul>
 </li>
 <li>第三项：<ul>
@@ -236,6 +236,7 @@
 </li>
 </ol>
 <hr>
+<p><img src="http://ppe.oss-cn-shenzhen.aliyuncs.com/collections/179/5/thumb.jpg" srcset="/img/loading.gif" alt="图片故事"></p>
 
             </div>
             <hr>
@@ -252,18 +253,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/07/16/NAME/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">NAME</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
                       <a href="/2020/07/16/hello-world/">
-                        <span class="hidden-mobile">MY VLog</span>
+                        <span class="hidden-mobile">Thanks Hexo</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -325,6 +320,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'true' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"1","artist":"1","url":"/music-url/1.mp3","cover":"/music-cover/1.jpg"}]
+    });
+  }
+</script>
 
   
 

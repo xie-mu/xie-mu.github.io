@@ -47,7 +47,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Mu ge</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -176,54 +176,6 @@
     
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
-        <a href="/2020/07/16/NAME/">NAME</a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2020/07/16/NAME/">
-          
-          
-            
-          
-          
-
-
-    
-    Title
-
-
-    
-    
-        花儿
-        少年
-        成功
-        失败
-    
-
-
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2020-07-16 20:34" pubdate>
-              2020-07-16
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
         <a href="/2020/07/16/Hello-Hexo/">Hello</a>
       </h1>
 
@@ -256,6 +208,7 @@ wo只是途径ta的绽放
 
 
 
+
         </a>
       </p>
 
@@ -279,7 +232,7 @@ wo只是途径ta的绽放
     
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
-        <a href="/2020/07/16/hello-world/">MY VLog</a>
+        <a href="/2020/07/16/hello-world/">Thanks Hexo</a>
       </h1>
 
       <p class="index-excerpt">
@@ -349,6 +302,29 @@ Quick
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'true' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"1","artist":"1","url":"/music-url/1.mp3","cover":"/music-cover/1.jpg"}]
+    });
+  }
+</script>
 
   
 
