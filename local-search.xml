@@ -8,7 +8,7 @@
     <link href="/2020/07/16/NAME/"/>
     <url>/2020/07/16/NAME/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <title>Title</title><meta name="generator" content="Hexo 4.2.1"></head><body>    <!--        ul 是无序列表            type属性可以修改列表项前面的符号        li  是列表项    -->    <ul type="none" >        <li>花儿</li>        <li>少年</li>        <li>成功</li>        <li>失败</li>    </ul></body></html>]]></content>
     
     
     
@@ -21,7 +21,7 @@
     <link href="/2020/07/16/Hello-Hexo/"/>
     <url>/2020/07/16/Hello-Hexo/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>]]></content>
+    <content type="html"><![CDATA[<ol><li>第一项：<ul><li>ta不是wo的花儿</li><li>wo只是途径ta的绽放</li></ul></li><li>第二项：<ul><li>鼻子一酸</li><li>眼眶一湿</li></ul></li><li>第三项：<ul><li>热爱</li><li>挚爱</li></ul></li><li>致未来：<ul><li>时间即是未来</li></ul></li></ol><hr>]]></content>
     
     
     
