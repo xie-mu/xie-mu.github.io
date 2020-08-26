@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>How you do</title>
+    <link href="/2020/08/26/how%20you%20do/"/>
+    <url>/2020/08/26/how%20you%20do/</url>
+    
+    <content type="html"><![CDATA[<h5 id="我的故事"><a href="#我的故事" class="headerlink" title="我的故事"></a>我的故事</h5><p>搭建博客是我这个刚学过Java的大一崽的一大愿望，原计划等我暑假肝完Javaweb再做一个NB哄哄的网站。学了一些javaweb后觉得就我这菜鸡，就算肝完也不一定写得出网站，就想到先完成个可以在GitHub托管的静态网站，偶然的一个推送让我接触到Hexo 搭建博客，二话不说便开始肝Git. node. vscode 。</p><h5 id="hexo的故事"><a href="#hexo的故事" class="headerlink" title="hexo的故事"></a>hexo的故事</h5><p>开始先跟着官方的教学，下载插件<a href="https://git-scm.com/download">Git</a>.<a href="https://nodejs.org/en/">Node</a>.<a href="https://code.visualstudio.com/">vscode</a></p><p>由于我是Windows平台，用的安装软件，其他平台的小伙伴可以<a href="https://hexo.bootcss.com/docs/">参考文档</a>，该文档还讲述了小白该如何通过命令行实现各种简单操作。下面我只提我遇到的一些问题：首先vscode的使用需要熟悉，在vscode中可直接使用cmd命令完成操作，可以一定程度上简化使用shell命令。hexo的命令可以<a href="https://hexo.bootcss.com/docs/">参考文档</a>该文档的命令顺序不要搞错，小白需谨慎，多看文档，多试错，有问题就百度或者去论坛，推荐<a href="https://www.cnblogs.com/">博客园</a>，<a href="https://juejin.im/">掘金</a>，<a href="https://www.csdn.net/">csdn</a>。</p><h6 id="未完待续。。。"><a href="#未完待续。。。" class="headerlink" title="未完待续。。。"></a>未完待续。。。</h6>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Future</title>
+    <link href="/2020/08/26/Future/"/>
+    <url>/2020/08/26/Future/</url>
+    
+    <content type="html"><![CDATA[<p>时间安排表：<br>6：00- 6：30  起床<br>6：30- 7：00  洗漱<br>7：00- 7：30  运动<br>7：30- 9：00  单词<br>9：00- 10：00 书籍<br>10：00-10：30 休息<br>10：30-11：30  社区<br>11：30-12：30  午餐<br>12：30- 14：00 午觉<br>14：00- 14：30  休息<br>14：30- 18：30  学习<br>18：30- 19：30 晚餐<br>19：30- 20：30 骑行<br>20：30- 22：30 游戏<br>22：30- 23：00 想办法睡觉</p><hr>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
